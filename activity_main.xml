@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Album List"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="150dp"
+        android:textSize="30sp"
+        android:layout_width="150dp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:text="Birthday"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:id="@+id/button"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:id="@+id/button2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Love"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:id="@+id/button3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Old Memories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:id="@+id/button4"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
